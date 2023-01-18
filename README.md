@@ -1,2 +1,2 @@
 # Rock-Paper-Scissor
-This is a TOP project!
+Final version of the game. I know it's pretty weird!

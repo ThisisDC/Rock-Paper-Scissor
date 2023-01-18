@@ -1,0 +1,371 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*FIRST HTML*/
+body{
+    min-height: 100vh;
+    display: flex;
+    background-image: url("1071165 (1).png");
+    flex-direction: column;
+    margin: 0;
+}
+
+.logo{
+    width: 150px;
+    height: 20%;
+    position: relative;
+    margin-bottom: -70px;
+}
+
+.title{
+    font-family: 'Bebas Neue', cursive;
+    padding-left:20px;
+    font-size: 90px;
+    display: flex;
+    justify-self: center;
+    color: red;
+}
+
+.upper{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left: -20px;
+    margin-bottom: 250px;
+}
+
+.description{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 600px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    flex-wrap: wrap;
+    justify-self: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.paragraf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 600px;
+    align-self: center;
+    background-color:rgba(42, 8, 236, 0.468);
+    border-radius: 8px;
+    border-color: blue;
+
+}
+
+.confirmtext{
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+.confirmbutton{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button-36 {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.button-36:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 5rem;
+  }
+}
+
+.footer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #5643CC;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 100px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footertext{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+/*SECOND HTML*/
+.gameplaybackground{
+    background-image: url("istockphoto-953621340-612x612.jpg");
+    /*margin-bottom:0px; USEFUL FOR STRETCH YOUR FOOTER */
+}
+
+.backlogo{
+    width:50px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.odinphoto{
+    margin-top: -80px;
+    width: 300px;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.odinname{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    font-size: 30px;
+    color: rgb(255, 196, 0);
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.bars{
+    position: relative;
+    left: -20px;
+}
+.odinbar{
+    margin-top: -40px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+.yourbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    /* FOR THE FOOTER */
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 45px;
+    left: -40px;
+}
+
+.border{
+    margin: 20px;
+}
+
+.Rock{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.Paper{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.Scissor{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.gamebutton{
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.gamebuttonodin{
+    border: 5px solid rgb(255, 196, 0);
+}
+
+.gamebutton1{
+    border: 5px solid red;
+}
+.gamebutton2{
+    border: 5px solid blue;
+}
+.gamebutton3{
+    border: 5px solid green;
+}
+
+
+.gamebutton1:hover {
+    box-shadow: red 0 1px 30px;
+    transition-duration: .1s;
+}
+
+.gamebutton2:hover {
+    box-shadow: blue 0 1px 30px;
+    transition-duration: .1s;
+}
+
+
+.gamebutton3:hover {
+    box-shadow: green 0 1px 30px;
+    transition-duration: .1s;
+}
+
+
+.playerchoice{
+    box-shadow: rgb(0, 132, 255) 0 1px 30px;
+}
+
+.computerchoice{
+    box-shadow: rgb(255, 196, 0) 0 1px 30px;
+}
+
+.sentence{
+    position: relative;
+    top: -200px;
+    left: 130px;
+    font-size:25px;
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    width: 500px
+}
+
+.sentencewin{
+    position: relative;
+    top: -200px;
+    left: 130px;
+    font-size:25px;
+    color: rgb(0, 255, 4);
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    width: 500px
+}
+
+.sentencelose{
+    position: relative;
+    top: -200px;
+    left: 130px;
+    font-size:25px;
+    color: rgb(255, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    width: 500px
+}
+
+.sentencedraw{
+    position: relative;
+    top: -200px;
+    left: 130px;
+    font-size:25px;
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    width: 500px
+}
+
+.namescore{
+    position: relative;
+    top: -220px;
+    left: 220px;
+    font-size:30px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 500px
+}
+
+.score{
+    position: relative;
+    top: -330px;
+    left: 210px;
+    font-size:120px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 500px
+}
+
+.youname{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 132, 255);
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    font-size: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.restartbutton{
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+    width:50px;
+    top:-28px;
+    border: none;
+    background-color: transparent; 
+}
+
+.imagerestartbutton{
+    width:50px;
+    }
+
+.winnerend{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-470px;
+    width:500px;
+    right: -700px;
+    text-align: center;
+    color: transparent;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+
+}
+
+.winnerendvisible{
+    color: red;
+}
